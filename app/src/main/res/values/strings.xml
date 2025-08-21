@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">GGTutorial</string>
+    <string name="nextstep">下一步</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="tip_title">提示</string>
+    <string name="tip_success">恭喜通过, 是否返回主页继续挑战?</string>
+    <string name="tip_failure">请先完成通关条件!</string>
+    <string name="tip_wait">前面的区域, 以后再来探索吧!</string>
+    <string name="step_basic1_help">
+        * 精确搜索\n
+        \n
+        * 通关条件:\n
+        1. 子弹 等于 999.\n
+    </string>
+    <string name="step_basic1_bullet">子弹: %1$d</string>
+    <string name="step_basic1_shoot">射击</string>
+    <string name="step_basic2_help">
+        * 联合搜索\n
+        \n
+        * 通关条件:\n
+        1. 血量 等于 999.\n
+        2. 蓝量 等于 999.\n
+    </string>
+    <string name="step_basic2_player">血量: %1$d, 蓝量: %2$d</string>
+    <string name="step_basic2_skill">技能</string>
+    <string name="step_basic3_help">
+        * 范围搜索\n
+        \n
+        * 通关条件:\n
+        1. 血量 等于 500.\n
+    </string>
+    <string name="step_basic3_hp_min">0</string>
+    <string name="step_basic3_hp_max">500</string>
+    <string name="step_basic3_attack">攻击</string>
+    <string name="step_basic4_help">
+        * 加密搜索\n
+        \n
+        * 通关条件:\n
+        1. 内存 等于 8888.\n
+    </string>
+    <string name="step_basic4_show">显示: %1$d</string>
+    <string name="step_basic4_add">增加</string>
+    <string name="step_basic5_help">
+        * 模糊搜索\n
+        \n
+        * 通关条件:\n
+        1. 血量 等于 999999.\n
+    </string>
+    <string name="step_basic5_attack">攻击</string>
+    <string name="step_basic6_help">
+        * 增量填充\n
+        \n
+        * 通关条件:\n
+        1. 毒球 大于 666.\n
+        2. 其他 小于 100.\n
+    </string>
+    <string name="step_basic6_skill">火球: %1$d, 水球: %2$d, 雷球: %3$d, 毒球: %4$d</string>
+    <string name="step_basic6_upgrade">升级</string>
+    <string name="step_basic7_help">
+        * 文本搜索\n
+        \n
+        * 通关条件:\n
+        1. 用户 等于 Admin.\n
+    </string>
+    <string name="step_basic7_user">用户: %1$s</string>
+    <string name="step_basic7_switch">切换</string>
+    <string name="step_basic8_help">
+        * 异或搜索\n
+        \n
+        * 通关条件:\n
+        1. 数值 等于 9999.\n
+    </string>
+    <string name="step_basic8_num">数值: %1$d</string>
+    <string name="step_basic8_change">改变</string>
+    <string name="step_agg1_help">
+        * MOV赋值\n
+        \n
+        * 通关条件:\n
+        1. 子弹 等于 999.(MOV)\n
+    </string>
+    <string name="step_agg1_bullet">子弹: %1$d</string>
+    <string name="step_agg1_shoot">射击</string>
+    <string name="step_agg1_replenish">补充</string>
+    <string name="step_agg2_help">
+        * ADD相加 | SUB相减\n
+        \n
+        * 通关条件:\n
+        1. 子弹 射击后 大于 射击前.(ADD -> SUB)\n
+        或\n
+        2. 子弹 补充后 小于 补充前.(SUB -> ADD)\n
+    </string>
+    <string name="step_agg2_bullet">子弹: %1$d</string>
+    <string name="step_agg2_shoot">射击</string>
+    <string name="step_agg2_replenish">补充</string>
+    <string name="step_agg3_help">
+        * EQ相等 | NE不相等\n
+        \n
+        * 通关条件:\n
+        1. 子弹 [等于 改 不等于] 666.(EQ -> NE)\n
+    </string>
+    <string name="step_agg3_bullet">子弹: %1$d</string>
+    <string name="step_agg3_shoot">射击</string>
+    <string name="step_agg3_replenish">补充</string>
+    <string name="step_agg4_help">
+        * GT大于 | LT小于\n
+        \n
+        * 通关条件:\n
+        1. 子弹 [大于 改 小于] 666.(GT -> LT)\n
+    </string>
+    <string name="step_agg4_bullet">子弹: %1$d</string>
+    <string name="step_agg4_shoot">射击</string>
+    <string name="step_agg4_replenish">补充</string>
+    <string name="step_agg5_help">
+        * GE大于等于 | LE小于等于\n
+        \n
+        * 通关条件:\n
+        1. 子弹 [大于等于 改 小于等于] 666.(GE -> LE)\n
+    </string>
+    <string name="step_agg5_bullet">子弹: %1$d</string>
+    <string name="step_agg5_shoot">射击</string>
+    <string name="step_agg5_replenish">补充</string>
+    <string name="step_agg6_help">
+        * CBZ判断为零 | CBNZ判断非零\n
+        \n
+        * 通关条件:\n
+        1. 子弹 [为零 改 非零] 666.(CBZ -> CBNZ)\n
+    </string>
+    <string name="step_agg6_bullet">子弹: %1$d</string>
+    <string name="step_agg6_shoot">射击</string>
+    <string name="step_agg6_replenish">补充</string>
+    <string name="step_agg7_help">
+        * NOP空操作\n
+        \n
+        * 通关条件:\n
+        1. 子弹 射击 无限子弹.(NOP)\n
+    </string>
+    <string name="step_agg7_bullet">子弹: %1$d</string>
+    <string name="step_agg7_shoot">射击</string>
+    <string name="step_agg7_replenish">补充</string>
+    <string name="step_practical1_help">
+        * 消费溢出\n
+        \n
+        * 通关条件:\n
+        1. 余额 大于 2000000000.\n
+        \n
+        * 附加说明:\n
+        1. 整数 最大值 2147483647.\n
+    </string>
+    <string name="step_practical1_sub">减少</string>
+    <string name="step_practical1_num">购买: %1$d, 消费: %2$d</string>
+    <string name="step_practical1_add">增加</string>
+    <string name="step_practical1_money">余额: %1$d</string>
+    <string name="step_practical1_buy">购买</string>
+    <string name="step_practical2_help">
+        * 多值检测\n
+        \n
+        * 通关条件:\n
+        1. 坐标 等于 8888.00.\n
+        \n
+        * 附加说明:\n
+        1. 检测值 一同更改.\n
+    </string>
+    <string name="step_practical2_left">左移</string>
+    <string name="step_practical2_pos">坐标: %1$.2f</string>
+    <string name="step_practical1_right">右移</string>
+</resources>

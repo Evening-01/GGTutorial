@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewStyle">
+        <item name="android:background">@drawable/rounded_background</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="ProgressBarHpStyle" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_bar_hp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

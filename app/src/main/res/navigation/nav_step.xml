@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_step"
+    app:startDestination="@+id/nav_main">
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="me.hd.ggtutorial.ui.fragment.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic1"
+            app:destination="@id/nav_step_basic1" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic2"
+            app:destination="@id/nav_step_basic2" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic3"
+            app:destination="@id/nav_step_basic3" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic4"
+            app:destination="@id/nav_step_basic4" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic5"
+            app:destination="@id/nav_step_basic5" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic6"
+            app:destination="@id/nav_step_basic6" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic7"
+            app:destination="@id/nav_step_basic7" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_basic8"
+            app:destination="@id/nav_step_basic8" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg1"
+            app:destination="@id/nav_step_agg1" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg2"
+            app:destination="@id/nav_step_agg2" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg3"
+            app:destination="@id/nav_step_agg3" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg4"
+            app:destination="@id/nav_step_agg4" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg5"
+            app:destination="@id/nav_step_agg5" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg6"
+            app:destination="@id/nav_step_agg6" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_agg7"
+            app:destination="@id/nav_step_agg7" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_practical1"
+            app:destination="@id/nav_step_practical1" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_step_practical2"
+            app:destination="@id/nav_step_practical2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_step_basic1"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic1"
+        android:label="StepBasic1"
+        tools:layout="@layout/fragment_step_basic1" />
+    <fragment
+        android:id="@+id/nav_step_basic2"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic2"
+        android:label="StepBasic2"
+        tools:layout="@layout/fragment_step_basic2" />
+    <fragment
+        android:id="@+id/nav_step_basic3"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic3"
+        android:label="StepBasic3"
+        tools:layout="@layout/fragment_step_basic3" />
+    <fragment
+        android:id="@+id/nav_step_basic4"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic4"
+        android:label="Step4Fragment"
+        tools:layout="@layout/fragment_step_basic4" />
+    <fragment
+        android:id="@+id/nav_step_basic5"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic5"
+        android:label="StepBasic5"
+        tools:layout="@layout/fragment_step_basic5" />
+    <fragment
+        android:id="@+id/nav_step_basic6"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic6"
+        android:label="StepBasic6"
+        tools:layout="@layout/fragment_step_basic6" />
+    <fragment
+        android:id="@+id/nav_step_basic7"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic7"
+        android:label="StepBasic7"
+        tools:layout="@layout/fragment_step_basic7" />
+    <fragment
+        android:id="@+id/nav_step_basic8"
+        android:name="me.hd.ggtutorial.ui.fragment.step.basic.StepBasic8"
+        android:label="StepBasic8"
+        tools:layout="@layout/fragment_step_basic8" />
+    <fragment
+        android:id="@+id/nav_step_agg1"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg1"
+        android:label="StepAgg1"
+        tools:layout="@layout/fragment_step_agg1" />
+    <fragment
+        android:id="@+id/nav_step_agg2"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg2"
+        android:label="StepAgg2"
+        tools:layout="@layout/fragment_step_agg2" />
+    <fragment
+        android:id="@+id/nav_step_agg3"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg3"
+        android:label="StepAgg3"
+        tools:layout="@layout/fragment_step_agg3" />
+    <fragment
+        android:id="@+id/nav_step_agg4"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg4"
+        android:label="StepAgg4"
+        tools:layout="@layout/fragment_step_agg4" />
+    <fragment
+        android:id="@+id/nav_step_agg5"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg5"
+        android:label="StepAgg5"
+        tools:layout="@layout/fragment_step_agg5" />
+    <fragment
+        android:id="@+id/nav_step_agg6"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg6"
+        android:label="StepAgg6"
+        tools:layout="@layout/fragment_step_agg6" />
+    <fragment
+        android:id="@+id/nav_step_agg7"
+        android:name="me.hd.ggtutorial.ui.fragment.step.agg.StepAgg7"
+        android:label="StepAgg7"
+        tools:layout="@layout/fragment_step_agg7" />
+    <fragment
+        android:id="@+id/nav_step_practical1"
+        android:name="me.hd.ggtutorial.ui.fragment.step.practical.StepPractical1"
+        android:label="StepPractical1"
+        tools:layout="@layout/fragment_step_practical1" />
+    <fragment
+        android:id="@+id/nav_step_practical2"
+        android:name="me.hd.ggtutorial.ui.fragment.step.practical.StepPractical2"
+        android:label="StepPractical2"
+        tools:layout="@layout/fragment_step_practical2" />
+</navigation>
